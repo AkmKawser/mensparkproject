@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mensparkapp' #exact app name টাই দিতে হবে ।
+    'mensparkapp', #exact app name টাই দিতে হবে ।
 ]
 
 MIDDLEWARE = [
