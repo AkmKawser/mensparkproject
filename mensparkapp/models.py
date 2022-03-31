@@ -11,6 +11,6 @@ class Outlet (models.Model):
     address = models.TextField()
     phone = models.IntegerField()
     manager_name = models.CharField(max_length=100)
-    opentime = models.TimeField()
-    closetime = models.TimeField()
+    opentime = models.TextField()
+    closetime = models.TextField()
     outlet_img = models.ImageField(upload_to = 'pics/outlet')
